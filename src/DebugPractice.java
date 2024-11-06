@@ -4,6 +4,7 @@ public class DebugPractice {
         int result = 0;
         for(int i = 0; i < 5; i++) {
             result+= a * b;
+            b=a+b;
         }
         return result;
     }
