@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Enter second number: ");
         int b = scanner.nextInt();
 
-        int result = debugPractice.calculate(5, 3);
+        int result = debugPractice.calculate(a,b);
 
 
         System.out.println("Result: " + result);
